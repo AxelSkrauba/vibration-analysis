@@ -6,10 +6,10 @@ Este directorio contiene un conjunto de datos de ejemplo para el análisis de vi
 
 ```
 data/
-├── normales/          # Ensayos en condiciones normales
+├── normales/         # Ensayos en condiciones normales
 │   ├── 1500_1/       # Ensayo a 1500 RPM, prueba 1
-│   ├── 2000_1/       # Ensayo a 2000 RPM, prueba 1
-│   └── 2500_1/       # Ensayo a 2500 RPM, prueba 1
+│   ├── 2000_2/       # Ensayo a 2000 RPM, prueba 2
+│   └── 2500_3/       # Ensayo a 2500 RPM, prueba 3
 ├── anormales/        # Ensayos con condiciones anómalas
 └── sin_correa/       # Ensayos específicos sin correa
 ```
@@ -20,6 +20,7 @@ data/
 - Cada archivo `.csv` contiene 780 muestras
 - Tres columnas representando los ejes X, Y, Z del acelerómetro
 - Sin encabezados en los archivos
+- Los valores numéricos son los aceleraciones, sin conversión de unidades (valores directos del ADC del acelerómetro)
 - Nomenclatura incremental: `0000.csv`, `0001.csv`, `0002.csv`, etc.
 
 ### Estructura de Ensayos
@@ -65,8 +66,3 @@ Este es un conjunto de datos de ejemplo reducido, destinado principalmente para:
 - Validación de métodos
 
 Para aplicaciones que requieran un conjunto de datos más extenso, se recomienda esperar a la publicación del conjunto de datos completo en futuras versiones.
-
-## Citación
-
-Si utiliza este conjunto de datos en su investigación, por favor cite:
-[Información de citación pendiente]

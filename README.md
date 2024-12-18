@@ -36,10 +36,22 @@ data/                  # Datos de ejemplo
 ```
 
 ## Instalación
+Se sugiere la utilización de un entorno virtual dedicado (virtualenv, por ejemplo)
 
 ```bash
 git clone https://github.com/AxelSkrauba/vibration-analysis.git
 cd vibration-analysis
+```
+
+Crear entorno virtual:
+```bash
+virtualenv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+
+Instalar todo en el entorno virtual:
+```bash
 pip install -r requirements.txt
 ```
 
